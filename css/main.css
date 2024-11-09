@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Base */
+body {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header */
+.header {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom-right-radius: 100px;
+    /*background-color: #252525;*/
+    background: #252525 linear-gradient(158deg, #2f2f2f 0%, #202020 100%);
+    color: #fff;
+}
