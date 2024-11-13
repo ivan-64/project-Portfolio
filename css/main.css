@@ -6,6 +6,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+
 }
 
 /* Header */
@@ -126,4 +127,65 @@ body {
 .project-title a {
   color: #000;
   text-decoration: underline;
+}
+
+/* contacts */
+
+.contacts {
+  padding: 80px 135px;
+  background-color: #252525;
+  border-top-left-radius: 100px;
+  color: #fff;
+}
+
+.contacts-title {
+  margin-bottom: 65px;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.messangers {
+  display: flex;
+  column-gap: 30px;
+}
+
+.messanger {
+  flex-grow: 1;
+
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  padding: 46px 20px;
+  border-radius: 20px;
+  border: 1px solid #363636;
+
+  color: #fff;
+  font-size: 20px;
+  transition: background-color 0.2s ease-in;
+}
+
+.messanger:hover {
+  background-color: #1e1e1e;
+}
+
+/* footer */
+
+.footer {
+  padding: 30px 0;
+  background-color: #1e1e1e;
+  color: #5d5d5d;
+}
+
+.footer a {
+  color: #5886a8;
+}
+
+.footer-inner {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-inner p+p {
+  margin-top: 15px;
 }
