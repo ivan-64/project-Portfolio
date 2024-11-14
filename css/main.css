@@ -244,12 +244,71 @@ body {
   display: flex;
   column-gap: 10px;
   align-items: center;
-justify-content: center;
+  justify-content: center;
   text-align: center;
   color: #000;
   background-color: #f1f1f1;
-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
+
 .inner-page-backLink:hover {
   background-color: #dedede;
+}
+
+/* go-travel */
+.go-travel {
+  padding: 80px;
+}
+
+.go-travel-title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #000;
+}
+
+
+.go-travel-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+
+  text-align: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.go-travel-text {
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.go-travel-link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+
+}
+
+.go-travel-link a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.go-travel-img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.go-travel-backLink {
+  display: block;
+  max-width: 770px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 30px 296px;
+  background-color: #f1f1f1;
+  color: #000;
 }
