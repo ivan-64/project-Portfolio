@@ -306,9 +306,92 @@ body {
   display: block;
   max-width: 770px;
   margin: 0 auto;
+  display: block;
+
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+ 
   font-weight: 400;
   font-size: 16px;
-  padding: 30px 296px;
+ 
+  padding: 30px 0;
+  text-align: center;
   background-color: #f1f1f1;
   color: #000;
+  transition: all 0.2s ease-in;
+}
+
+.go-travel-backLink:hover {
+  background-color: #dedede;
+}
+
+/* lofthouse */
+
+.lofthouse {
+  padding: 80px 274px;
+}
+.lofthouse-title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 52px;
+  color: #000;
+  text-align: center;
+}
+
+.lofthouse-page-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin-bottom: 40px;
+}
+
+.lofthouse-text {
+  margin: 0 auto;
+  max-width: 570px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #555555;
+}
+
+.lofthouse-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+}
+.lofthouse-link a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.lofthouse-img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;                                                                             
+}
+
+.lofthouse-page-backLink {
+  display: block;
+  max-width: 770px;
+  margin: 0 auto;
+
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  background-color: #f1f1f1;
+  transition: all 0.2s ease-in;
+}
+
+.lofthouse-page-backLink:hover {
+background-color: #dedede;
 }
