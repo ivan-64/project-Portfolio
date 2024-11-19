@@ -24,5 +24,32 @@
     }
 
     @media (max-width: 767px) {
+        .header {
+            padding: 20px 0 40px;
+            border-bottom-right-radius: 60px;
+          }
+          .header-row {
+            align-items: flex-start;
+            flex-direction: column;
+            row-gap: 20px;
+          }
+          .header-img {
+            border-radius: 30px;
+          }
+          .header-title {
+            font-size: 32px;
+          }
+          .header-text {
+            font-size: 18px;
+          }
+          .header-btns {
+            column-gap: 10px;
+          }
 
+          .btn {
+            /* height: 48px; */
+            font-size: 16px;
+            padding: 12px 15px;
+          }
+          
     }
