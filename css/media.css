@@ -35,6 +35,10 @@
     border-bottom-right-radius: 60px;
   }
 
+  .header-video {
+    border-bottom-right-radius: 60px;
+  }
+
   .header-row {
     align-items: flex-start;
     flex-direction: column;
